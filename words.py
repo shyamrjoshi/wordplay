@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_restful import Api
+from resources.randomwords import randomWords
 from resources.rootwords import root
 from flask_basicauth import BasicAuth
 
@@ -14,7 +15,8 @@ api = Api(app)
 # endpoint for the app root
 api.add_resource(root, '/', endpoint='rootWords')
 
-
+# endpoint for getting random word
+api.add_resource(randomWords, '/words/1.0/random', endpoint='randomWords')
 
 if __name__ == '__main__':
     app.run()
