@@ -242,12 +242,13 @@ it has 11 test cases. execute this file to run unittesting.
 
 #Setup
 
-clone files from https://github.com/shyamrjoshi/wordplay
+1. clone files from https://github.com/shyamrjoshi/wordplay
 
-install python 3.5.2
-install pip
-install requirements from requirements.txt
-run the application, python run.py
+2. install python 3.5.2
+3. install pip
+4. install requirements from requirements.txt
+5. run the application, python run.py
+
 
 To execute test cases. run python apitestwords.py 
 
